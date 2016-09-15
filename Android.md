@@ -1,8 +1,13 @@
 #Android
 ##一.基础
-1. 四大组件,五大布局.    
+1. 四大组件,五大布局. 
+
+   - 四大组件:Activity Service ContentProvider BroadCastReceiver
+   - 五大布局:线性布局 相对布局 帧布局 表格布局 帧布局
 
 2. 数据持久化几种方式,都有什么.    
+
+   五种方式:文件存储 数据库 SharedPreferences 网络 内容提供者
 
 3. 有哪些种动画,具体说一下区别.    
 
@@ -100,6 +105,8 @@
 10. Fragment与宿主Activity进行通信,有哪些方式,请说明.    
 
 11. 一般来说,一个应用程序一共有多少个Context.    
+
+   Context的个数等于Activity的个数 + Service个数 +  1 (Application也是Context)
 
 12. 如何一次性退出所有的Activity,有哪些解决方案.    
 
