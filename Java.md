@@ -55,6 +55,10 @@
 31. 数据流的分类,常用的数据流.
 
 41. 基本概念,JDK/JRE/JVM
+- JDK Java Development Kit Java开发包.包含JRE和Java的常用类库.
+- JRE Java Runtime Environment Java运行时环境.可以单独在Oracle官网下载,运行Java程序必须安装.
+- JVM Java Virtual Machine Java虚拟机.Oracle官网不提供单独下载,集成在JRE中.Java程序最终运行在JVM中.
+在搭建环境时,只需要安装JDK即可.
 
 51. 内部类与静态内部类有什么区别.
 
@@ -63,6 +67,17 @@
 71. toString/equals/hashCode分别是谁的方法,一般用来干嘛.
 
 81. Java中如何退出多重循环.
+- 如下所示:
+```
+        // 标记双重循环开始的位置
+        ABC:
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                // 在某个时刻结束双重循环
+                break ABC;    
+            }
+        }
+```
 
 91. 实例方法可不可以访问静态属性,静态方法可不可以访问实例属性.
 
