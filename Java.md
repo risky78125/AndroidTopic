@@ -55,8 +55,11 @@
 31. 数据流的分类,常用的数据流.
 
 41. 基本概念,JDK/JRE/JVM
+
 - JDK Java Development Kit Java开发包.包含JRE和Java的常用类库.
+
 - JRE Java Runtime Environment Java运行时环境.可以单独在Oracle官网下载,运行Java程序必须安装.
+
 - JVM Java Virtual Machine Java虚拟机.Oracle官网不提供单独下载,集成在JRE中.Java程序最终运行在JVM中.
 在搭建环境时,只需要安装JDK即可.
 
